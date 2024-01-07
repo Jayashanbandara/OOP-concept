@@ -4,6 +4,7 @@
 
 Encapsulation is the bundling of data (attributes) and methods (functions) that operate on the data into a single unit called a class. It helps in hiding the internal details of an object and exposing only what is necessary.
 
+#code
 class Car:
     def __init__(self, make, model):
         self.make = make
