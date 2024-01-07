@@ -1,4 +1,4 @@
-➡️ Encapsulation
+➡️ Encapsulation -Acces level control
 
 Encapsulation is the bundling of data (attributes) and methods (functions) that operate on the data into a single unit called a class. It helps in hiding the internal details of an object and exposing only what is necessary.
 
@@ -14,7 +14,15 @@ Encapsulation is the bundling of data (attributes) and methods (functions) that 
     my_car = Car("Toyota", "Camry")
     my_car.start_engine()
 
-➡️ Inheritance
+➡️ Inheritance - Can access a class things with a another class(Called inherit)
+
+❕four inheritance
+    1.single inheritance
+    2.Hierarchical inheritance
+    3.Multi Level Inheritance
+    4.Multiple Inheritance
+    5.Hybrid Inheritance
+
 
 Inheritance allows a new class (subclass/derived class) to inherit properties and methods from an existing class (superclass/base class). It promotes code reusability and establishes a relationship between the classes.
 
@@ -39,7 +47,11 @@ Inheritance allows a new class (subclass/derived class) to inherit properties an
 
 
 
-➡️ Polymorphism
+➡️ Polymorphism - One thing has different situation has different acts
+
+Can achieve 
+   1.Method Overloading
+   2.Method Overiding
 
 Polymorphism allows objects of different classes to be treated as objects of a common base class. It enables a single interface for different data types.
 
@@ -70,7 +82,7 @@ Polymorphism allows objects of different classes to be treated as objects of a c
     print(rectangle.area())   # Output: 24
 
 
-➡️ abstraction
+➡️ abstraction - reduce the complexity
 
 
 Abstraction is another important concept in object-oriented programming (OOP). It involves simplifying complex systems by modeling classes 
