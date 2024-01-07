@@ -11,8 +11,7 @@ class Car:
 
     def start_engine(self):
         print(f"The {self.make} {self.model}'s engine is started.")
-
-# Usage
+        
 my_car = Car("Toyota", "Camry")
 my_car.start_engine()
 
